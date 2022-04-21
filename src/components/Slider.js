@@ -82,9 +82,9 @@ export default function Slider() {
     const track = document.querySelector("#track");
     const coloredTrack = document.querySelector("#coloredTrack");
     thumb.addEventListener("drag", (e) => handleValue(e));
-    track.addEventListener("click", (e) => handleValue(e));
+    track.addEventListener("mousedown", (e) => handleValue(e));
     track.addEventListener("drag", (e) => handleValue(e));
-    coloredTrack.addEventListener("click", (e) => handleValue(e));
+    coloredTrack.addEventListener("mousedown", (e) => handleValue(e));
     coloredTrack.addEventListener("drag", (e) => handleValue(e));
   }, []);
   const checkPointList = [1, 25, 50, 75, 100];
