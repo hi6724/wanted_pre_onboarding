@@ -1,6 +1,6 @@
 import Dropdown from "./components/Dropdown";
 import Input from "./components/Input";
-import Slider from "./components/Slider";
+import Slider from "./components/slider/Slider";
 import Tab from "./components/Tab";
 import Toggle from "./components/Toggle";
 
